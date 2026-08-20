@@ -135,3 +135,105 @@ h1 {
 .producto button:hover {
     opacity: 0.8;
 }
+
+.pago-pag {
+    background-color: #ebd4d9;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.pago-contenedor {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.detalle-compra {
+    background-color: white;
+    width: 230px;
+    min-height: 430px;
+    border-radius: 25px;
+    padding: 25px;
+}
+
+.datos-envio {
+    background-color: white;
+    width: 260px;
+    min-height: 430px;
+    border-radius: 25px;
+    padding: 25px;
+}
+
+.imagen-compra img {
+    width: 250px;
+    filter: saturate(0.65) brightness(1.08);
+    opacity: 0.7;
+}
+
+.detalle-compra h2, .datos-envio h2 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    font-weight: bolder;
+    margin-bottom: 12px;
+}
+
+.detalle-compra p, .datos-envio p, .datos-envio label {
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.detalle-compra button {
+    background-color: #f2f2f2;
+    border: none;
+    border-radius: 15px;
+    width: 180px;
+    padding: 7px 5px;
+    font-size: 11px;
+    display: block;
+    margin: 0 auto 8px;
+}
+
+.detalle-compra .boton-comprar {
+    background-color: #8ee56b;
+    width: auto;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 16px;
+    padding: 7px 20px;
+    display: block;
+    margin: 15px auto 0;
+}
+
+.datos-envio input, .datos-envio textarea {
+    width: 100%;
+    background-color: #f2f2f2;
+    border: none;
+    border-radius: 15px;
+    padding: 8px 10px;
+    margin-bottom: 15px;
+    font-size: 11px;
+}
+
+.resumen p {
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    line-height: 1.5;
+}
+
+.total {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
+.entrega {
+    font-size: 10px !important;
+    margin-top: 30px;
+    margin-bottom: -10px;
+    line-height: 1.2;
+}
