@@ -94,12 +94,20 @@ h1 {
     margin: 0;
 }
 
+.catalogo {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 .productos-contenedor {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 40px;
-    min-height: 100vh;
+    min-height: auto;
 }
 
 .producto img {
@@ -133,6 +141,22 @@ h1 {
 }
 
 .producto button:hover {
+    opacity: 0.8;
+}
+
+.ver-compra {
+    margin-top: 60px;
+    background-color: #8abf8a;
+    color: black;
+    border-radius: 20px;
+    padding: 5px 20px;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: none;
+    box-shadow: 0 3px 4px rgba(0, 0, 0, 0.2);
+}
+
+.ver-compra:hover {
+    color: black;
     opacity: 0.8;
 }
 
